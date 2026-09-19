@@ -1,0 +1,72 @@
+FPR INKOTANYI MEMBER PORTAL
+ABSTRACT, INTRODUCTION, AND REQUIREMENTS
+
+
+ABSTRACT
+
+The FPR Inkotanyi Member Portal is a web-based application built exclusively for the Front Patriotique Rwandais (FPR) Inkotanyi — the Rwandan Patriotic Front. It helps Inkotanyi leaders and members manage membership, events, attendance, news, achievements, and official resources in one digital platform. Leaders can approve registrations, manage member records, create events, monitor attendance, publish news, and update Inkotanyi achievements. Members can register, log in after approval, view FPR information, RSVP to events, access resources, and manage their profiles.
+
+The project uses React with Vite for the frontend, Node.js (Express) for the backend, and PostgreSQL for data storage, with JWT authentication and role-based access. The system improves communication, transparency, and administrative efficiency within FPR Inkotanyi only — it is not a multi-party platform.
+
+
+INTRODUCTION
+
+FPR Inkotanyi needs effective tools to manage members, communicate programs, organize events, and share official information. Traditional manual methods such as paper records, phone calls, and scattered files can cause delays, data loss, poor attendance tracking, and weak coordination.
+
+This portal was developed as a centralized platform for Inkotanyi administration and member engagement. New members register online and wait for leader approval. Approved members access their dashboard, events, news, and FPR resources. Leaders manage members, approve or reject applications, create events, record attendance, and publish achievements, news, and documents such as the manifesto and guidelines.
+
+The system supports better organization and faster communication for FPR Inkotanyi operations. It focuses on one party only: FPR Inkotanyi (Demokrasi · Ubumwe · Amajyambere).
+
+
+PROJECT REQUIREMENTS
+
+Functional Requirements
+
+1. The system shall allow users to register as FPR Inkotanyi members.
+2. The system shall allow users to log in securely using email and password.
+3. The system shall support Inkotanyi roles, mainly Leader and Member.
+4. The system shall allow leaders to approve or reject pending member registrations.
+5. The system shall allow leaders to view and manage approved and pending members.
+6. The system shall allow users to update their profile information.
+7. The system shall allow leaders to create, update, and delete Inkotanyi events.
+8. The system shall allow members to view events and RSVP.
+9. The system shall allow leaders to mark member attendance for events.
+10. The system shall allow users to view FPR Inkotanyi achievements.
+11. The system shall allow leaders to create, update, and delete achievements.
+12. The system shall allow users to view Inkotanyi news and opinions.
+13. The system shall allow leaders to publish, update, and delete news.
+14. The system shall allow users to access FPR resources such as manifesto, history, structure, and guidelines.
+15. The system shall support password reset through forgot-password and reset-password features.
+16. The system shall protect private pages using authentication and authorization.
+17. The system shall serve FPR Inkotanyi only (single-party scope).
+
+
+Non-Functional Requirements
+
+1. The system should be user-friendly and easy to navigate.
+2. The system should protect user data using secure authentication.
+3. The system should store data reliably in a PostgreSQL database.
+4. The system should be responsive and accessible through a web browser.
+5. The system should separate frontend, backend, and database services.
+6. The system should provide fast access to member, event, news, and resource data.
+7. The system should be maintainable and scalable for future FPR Inkotanyi improvements.
+8. Branding, colors, and content should follow FPR Inkotanyi identity.
+
+
+Software Requirements
+
+1. Frontend: React, Vite, Tailwind CSS
+2. Backend: Node.js, Express, Prisma
+3. Database: PostgreSQL
+4. API Communication: REST API with Axios
+5. Security: JWT authentication and role-based access
+6. Build Tools: npm
+
+
+Hardware Requirements
+
+1. Computer with at least 4 GB RAM
+2. Minimum 2 GHz processor
+3. At least 2 GB free disk space
+4. Internet browser such as Chrome, Firefox, or Edge
+5. Local or hosted server environment for deployment
